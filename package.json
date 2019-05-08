@@ -5,6 +5,8 @@
   ],
   "scripts": {
     "build": "lerna run build",
+    "prepublishOnly": "yarn build",
+    "release": "lerna publish",
     "test": "jest"
   },
   "devDependencies": {

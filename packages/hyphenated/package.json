@@ -2,6 +2,11 @@
   "name": "hyphenated",
   "version": "1.0.0",
   "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/"
+  ],
   "main": "dist/hyphenated.cjs.js",
   "scripts": {
     "build": "rollup -c"
