@@ -1,0 +1,9 @@
+{
+  "name": "hyphenated-en-us",
+  "version": "1.0.0",
+  "main": "dist/hyphenated-en-us.cjs.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
