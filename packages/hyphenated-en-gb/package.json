@@ -5,6 +5,7 @@
   "files": [
     "LICENSE",
     "README.md",
+    "hyph-en-gb.tex",
     "dist/"
   ],
   "main": "dist/hyphenated-en-gb.cjs.js",
