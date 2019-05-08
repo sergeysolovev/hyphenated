@@ -1,12 +1,15 @@
 {
   "name": "hyphenated",
   "version": "1.0.0",
-  "main": "dist/hyphenated.cjs.js",
   "license": "MIT",
+  "main": "dist/hyphenated.cjs.js",
   "scripts": {
     "build": "rollup -c"
   },
   "dependencies": {
     "hyphenated-en-us": "1.0.0"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }
