@@ -1,5 +1,7 @@
 # Hyphenated
 
+[![CircleCI](https://circleci.com/gh/sergeysolovev/hyphenated.svg?style=shield)](https://circleci.com/gh/sergeysolovev/hyphenated)
+
 Better hyphenation.
 
 ## Supported languages
