@@ -2,16 +2,7 @@
   "name": "hyphenated-en-gb",
   "version": "1.0.1",
   "license": "MIT",
-  "files": [
-    "LICENSE",
-    "README.md",
-    "hyph-en-gb.tex",
-    "dist/"
-  ],
-  "main": "dist/hyphenated-en-gb.cjs.js",
-  "scripts": {
-    "build": "rollup -c"
-  },
+  "main": "index.js",
   "engines": {
     "node": ">=8"
   }
