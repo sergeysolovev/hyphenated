@@ -3,7 +3,6 @@
 const path = require('path');
 const babel = require('rollup-plugin-babel');
 const resolve = require('rollup-plugin-node-resolve');
-const json = require('rollup-plugin-json');
 const pkg = require('./package.json');
 const babelConfig = require('../../babel.config.js');
 
@@ -15,9 +14,5 @@ module.exports = {
       format: 'cjs'
     }
   ],
-  plugins: [
-    json(),
-    resolve(),
-    babel({ exclude: 'node_modules/**', ...babelConfig })
-  ]
+  plugins: [resolve(), babel({ exclude: 'node_modules/**', ...babelConfig })]
 };
