@@ -2,16 +2,7 @@
   "name": "hyphenated-fr",
   "version": "1.0.1",
   "license": "MIT",
-  "files": [
-    "LICENSE",
-    "README.md",
-    "hyph-fr.tex",
-    "dist/"
-  ],
-  "main": "dist/hyphenated-fr.cjs.js",
-  "scripts": {
-    "build": "rollup -c"
-  },
+  "main": "index.js",
   "engines": {
     "node": ">=8"
   }

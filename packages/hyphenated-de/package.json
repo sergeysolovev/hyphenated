@@ -2,16 +2,7 @@
   "name": "hyphenated-de",
   "version": "1.0.1",
   "license": "MIT",
-  "files": [
-    "LICENSE",
-    "README.md",
-    "hyph-de-1996.tex",
-    "dist/"
-  ],
-  "main": "dist/hyphenated-de.cjs.js",
-  "scripts": {
-    "build": "rollup -c"
-  },
+  "main": "index.js",
   "engines": {
     "node": ">=8"
   }
