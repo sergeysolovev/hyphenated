@@ -7,7 +7,7 @@
     "build": "node scripts/build.js",
     "clean": "node scripts/clean.js",
     "prepublishOnly": "yarn build",
-    "release": "lerna publish",
+    "release": "lerna publish --contents dist",
     "test": "jest"
   },
   "jest": {
