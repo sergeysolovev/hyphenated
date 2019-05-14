@@ -1,6 +1,6 @@
 # Hyphenated
 
-[![CircleCI](https://circleci.com/gh/sergeysolovev/hyphenated.svg?style=shield)](https://circleci.com/gh/sergeysolovev/hyphenated)
+[![CircleCI](https://circleci.com/gh/sergeysolovev/hyphenated.svg?style=shield&circle-token=0701315b8c50b1291d10436e180526b252d7172c)](https://circleci.com/gh/sergeysolovev/hyphenated)
 
 Better hyphenation.
 
