@@ -1,6 +1,17 @@
 {
   "name": "hyphenated-en-gb",
   "version": "1.1.0",
+  "keywords": [
+    "hyphenation",
+    "javascript",
+    "library"
+  ],
+  "bugs": "https://github.com/sergeysolovev/hyphenated/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergeysolovev/hyphenated.git",
+    "directory": "packages/hyphenated-en-gb"
+  },
   "license": "MIT",
   "main": "index.js",
   "engines": {
