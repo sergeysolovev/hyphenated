@@ -1,11 +1,15 @@
 # hyphenated-fr
 
-Hyphenation patterns and exceptions for French language.
+This package contains hyphenation patterns and exceptions for the French
+language. It is intended to be used with the main `hyphenated` package.
+
+See the [home page](https://github.com/sergeysolovev/hyphenated) for more
+information.
 
 ## Installation
 
 ```shell
-npm install hyphenated-fr
+npm install hyphenated hyphenated-fr
 ```
 
 ## License
