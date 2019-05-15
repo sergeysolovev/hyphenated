@@ -35,7 +35,7 @@ console.log(textWithSoftHyphens.replace(/\u00AD/g, '~'));
 
 This should output:
 
-```
+```shell
 Self-ev~i~dent. Ev~i~dent to one’s self and to no~body else.
 ```
 
@@ -62,17 +62,47 @@ paragraph.innerText = textWithSoftHyphens;
 document.body.appendChild(paragraph);
 ```
 
+## Text in another language
+
+To hyphenate text in a language other than American English, first install an
+appropriate language package:
+
+```shell
+npm install hyphenated-fr
+```
+
+Pass it as an option to `hyphenated`:
+
+```js
+import fr from 'hyphenated-fr';
+import { hyphenated } from 'hyphenated';
+
+const textWithSoftHyphens = hyphenated(
+  "Je suis l'itinéraire donné par Pierre, un ami français.",
+  { language: fr }
+);
+
+// To display soft hyphen (\u00AD) positions in console:
+console.log(textWithSoftHyphens.replace(/\u00AD/g, '~'));
+```
+
+This should output:
+
+```shell
+Je suis l'iti~né~raire don~né par Pierre, un ami fran~çais.
+```
+
 ## Supported languages
 
 American English is a default language for hyphenated. It’s not necessary to
 install it separately.
 
-| language         | package                                                                                               | license |
-| ---------------- | ----------------------------------------------------------------------------------------------------- | ------- |
-| American English | [hyphenated-en-us](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-en-us) | MIT     |
-| British English  | [hyphenated-en-gb](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-en-gb) | MIT     |
-| German           | [hyphenated-de](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-de)       | MIT     |
-| French           | [hyphenated-fr](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-fr)       | MIT     |
+| language                   | package                                                                                               | license |
+| -------------------------- | ----------------------------------------------------------------------------------------------------- | ------- |
+| American English (default) | [hyphenated-en-us](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-en-us) | MIT     |
+| British English            | [hyphenated-en-gb](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-en-gb) | MIT     |
+| German                     | [hyphenated-de](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-de)       | MIT     |
+| French                     | [hyphenated-fr](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-fr)       | MIT     |
 
 ## License
 
