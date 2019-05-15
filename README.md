@@ -6,7 +6,7 @@ Better hyphenation for JavaScript. Why?
 
 - **Precise**: uses Franklin Liang’s algorithm under the hood.
 - **Versatile**: hyphenates entire text and not just single words.
-- **Multiple languages**: can be installed independently for effective code
+- **Multiple languages**: can be installed independently for efficient code
   splitting.
 - **Flexible licensing**: each language package has a
   [separate license](#license) which is MIT where it’s possible.
@@ -39,7 +39,7 @@ This should output:
 Self-ev~i~dent. Ev~i~dent to one’s self and to no~body else.
 ```
 
-Here soft hyphens are replaced with `~` only for demostration purposes.
+Here soft hyphens are replaced with `~` only for demonstration purposes.
 
 ## Browser example
 
