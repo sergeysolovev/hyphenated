@@ -12,6 +12,8 @@ Better hyphenation for JavaScript. Why?
 - **Flexible licensing**: each language package has a
   [separate license](#license) which is MIT where it’s possible.
 
+[View demo →](https://hyphenated.netlify.com/)
+
 ## Quickstart
 
 Install the main package which already includes hyphenation patterns for
