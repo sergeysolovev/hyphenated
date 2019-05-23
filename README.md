@@ -109,10 +109,8 @@ install it separately.
 
 ## License
 
-Hyphenated consists of the main
-[hyphenated](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated)
-package and additional [language packages](#supported-languages) which are
-distributed independently. The hyphenated package is licensed under the
-[MIT license](https://github.com/sergeysolovev/hyphenated/blob/master/packages/hyphenated/LICENSE).
-Each language package has a separate license based on a license of the original
-work. Refer to the LICENSE document in each language package for more details.
+Hyphenated is primarily distributed under the terms of the MIT license. It
+includes packages with hyphenation patterns written by third parties. These
+packages carry their own copyright notices and license terms.
+
+See [LICENSE](LICENSE) for details.
