@@ -1,0 +1,23 @@
+{
+  "name": "hyphenated-ru",
+  "version": "1.2.1",
+  "keywords": [
+    "hyphenation",
+    "javascript",
+    "library",
+    "ru",
+    "russian"
+  ],
+  "homepage": "https://github.com/sergeysolovev/hyphenated",
+  "bugs": "https://github.com/sergeysolovev/hyphenated/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergeysolovev/hyphenated.git",
+    "directory": "/packages/hyphenated-ru"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  }
+}
