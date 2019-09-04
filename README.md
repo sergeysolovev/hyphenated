@@ -106,6 +106,7 @@ install it separately.
 | British English            | [hyphenated-en-gb](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-en-gb) | MIT     |
 | German                     | [hyphenated-de](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-de)       | MIT     |
 | French                     | [hyphenated-fr](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-fr)       | MIT     |
+| Russian                    | [hyphenated-ru](https://github.com/denisotree/hyphenated-ru)                                          | LPPL    |
 
 ## License
 
