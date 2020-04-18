@@ -107,8 +107,7 @@ install it separately.
 | German                     | [hyphenated-de](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-de)       | MIT     |
 | French                     | [hyphenated-fr](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-fr)       | MIT     |
 | Russian                    | [hyphenated-ru](https://github.com/denisotree/hyphenated-ru)                                          | LPPL    |
-| Spanish                    | [hyphenated-es](https://github.com/vzla0094/hyphenated-es)                                            |
-MIT     |
+| Spanish                    | [hyphenated-es](https://github.com/vzla0094/hyphenated-es)                                            | MIT     |
 
 ## License
 
