@@ -108,6 +108,7 @@ install it separately.
 | French                     | [hyphenated-fr](https://github.com/sergeysolovev/hyphenated/tree/master/packages/hyphenated-fr)       | MIT     |
 | Russian                    | [hyphenated-ru](https://github.com/denisotree/hyphenated-ru)                                          | LPPL    |
 | Spanish                    | [hyphenated-es](https://github.com/vzla0094/hyphenated-es)                                            | MIT     |
+| Polish                     | [hyphenated-pl](https://github.com/wporoslo/hyphenated-pl)                                            | MIT     |
 
 ## License
 
