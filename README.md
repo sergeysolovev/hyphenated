@@ -109,6 +109,7 @@ install it separately.
 | Russian                    | [hyphenated-ru](https://github.com/denisotree/hyphenated-ru)                                          | LPPL    |
 | Spanish                    | [hyphenated-es](https://github.com/vzla0094/hyphenated-es)                                            | MIT     |
 | Polish                     | [hyphenated-pl](https://github.com/wporoslo/hyphenated-pl)                                            | MIT     |
+| Dutch                      | [@digitalartlab/hyphenated-nl](https://github.com/digitalartlab/hyphenated-nl)                        | LPPL    |
 
 ## License
 
